@@ -82,7 +82,7 @@ p {
 
 @media screen and (min-width: 500px) {
     * {
-        overflow:none;
+        overflow: none;
 
     }
 
