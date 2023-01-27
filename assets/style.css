@@ -80,16 +80,20 @@ p {
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 600px) {
     * {
-        overflow:visible;
+        overflow: visible;
+        scroll-behavior: smooth;
+        scrollbar-width: 1px;
+        margin: -1% ;
+        margin-top: 0px;
 
     }
 
 
     .main {
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: .5rem;
+        margin-right: .5rem;
         margin-top: 1.5rem;
         margin-bottom: 1.4rem;
         display: flex;
@@ -99,5 +103,27 @@ p {
     }
 
 
+    nav-bar {
+        background: black;
+        overflow:hidden ;
+    }
+
+    .nav-bar li {
+        padding: 20px;
+        color: white;
+        font-weight: bolder;
+        font-size: 15px;
+        transition: 600ms;
+    }
+
+
+
+    ul {
+        display:flexbox;
+        margin-left: 0.5rem;
+        flex-direction: row;
+        padding: 3px;
+
+    }
 
 }
