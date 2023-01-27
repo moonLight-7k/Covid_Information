@@ -43,7 +43,7 @@ body {
     background-color: rgba(7, 7, 8, 0.844);
     margin-left: 4rem;
     margin-right: 4rem;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
     display: flex;
     flex-direction: column;
     border-radius: 15px;
@@ -77,4 +77,27 @@ p {
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
 
+}
+
+
+@media screen and (min-width: 600px) {
+    * {
+        overflow:scroll;
+
+    }
+
+
+    .main {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.4rem;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+
+    
 }
